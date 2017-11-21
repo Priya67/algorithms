@@ -7,12 +7,12 @@ add(param1, param2) = 3.
 
  #### Input/Output
 
-[time limit] 4000ms (rb) <br>
+[time limit] 4000ms (rb) <br><br>
 [input] integer param1
 
 #### Guaranteed constraints:
 [input] integer:
-  -100 ≤ param1 ≤ 1000.
+  -100 ≤ param1 ≤ 1000. <br><br>
   -100 ≤ param2 ≤ 1000.
 
 [output] integer: 
