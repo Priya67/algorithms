@@ -22,7 +22,7 @@ Guaranteed constraints:
 
 The sum of the two inputs.
 
-````
+```ruby
 def add(param1, param2)
     param1 + param2
 end
