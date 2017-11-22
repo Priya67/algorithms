@@ -1,3 +1,32 @@
+## Given two strings, find the number of common characters between them.
+
+### _Example_
+
+For s1 = "aabcc" and s2 = "adcaa", the output should be
+commonCharacterCount(s1, s2) = 3.
+
+Strings have 3 common characters - 2 "a"s and 1 "c".
+
+#### Input/Output
+
+[time limit] 4000ms (rb)
+[input] string s1
+
+A string consisting of lowercase latin letters a-z.
+
+#### Guaranteed constraints:
+1 ≤ s1.length ≤ 15.
+
+[input] string s2
+
+A string consisting of lowercase latin letters a-z.
+
+#### Guaranteed constraints:
+1 ≤ s2.length ≤ 15.
+
+[output] integer
+
+```ruby
 def commonCharacterCount(s1, s2)
     uniqueStr = s1.split("").uniq
     
@@ -10,3 +39,4 @@ def commonCharacterCount(s1, s2)
     end
     sum
 end
+````
