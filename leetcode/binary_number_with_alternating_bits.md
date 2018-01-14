@@ -1,6 +1,6 @@
 Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
 
-####Example 1:
+Example 1:
 ````
 Input: 5
 Output: True
@@ -39,7 +39,7 @@ var hasAlternatingBits = function(n) {
     return true;  
 };
 ```
-### Optimal Solution
+### Another Optimal Solution
 ```javascript
 var hasAlternatingBits = function(n) {
     let ad = 2;
@@ -52,7 +52,7 @@ var hasAlternatingBits = function(n) {
 };
 ```
 
-My Solution
+#### My Solution
 ```javascript
 var hasAlternatingBits = function(n) {
     var binary_form = (n >>> 0).toString(2);
