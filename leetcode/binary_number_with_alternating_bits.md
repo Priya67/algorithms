@@ -52,7 +52,7 @@ var hasAlternatingBits = function(n) {
 };
 ```
 
-#### My Solution
+### My Solution
 ```javascript
 var hasAlternatingBits = function(n) {
     var binary_form = (n >>> 0).toString(2);
