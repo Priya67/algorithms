@@ -13,7 +13,7 @@ Input: "LL"
 Output: false
 ````
 
-###Optimal Solution
+### Optimal Solution
 ```javascript
 var judgeCircle = function(moves) {
     var length=moves.length;
@@ -40,7 +40,7 @@ var judgeCircle = function(moves) {
     return r===l&&u===d
 };
 ```
-###My Solution
+### My Solution
 ```javascript
 var judgeCircle = function(moves) {
     var x = 0;
